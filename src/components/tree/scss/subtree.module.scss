@@ -1,0 +1,24 @@
+.tree {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  &__item {
+    display: block;
+    text-align: left;
+  }
+  &__summary {
+    text-align: left;
+    width: 100%;
+    cursor: pointer;
+  }
+  &__list-item {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    padding-left: 20px;
+    list-style-type: none;
+  }
+  .bullets {
+    margin-right: 7px;
+  }
+}

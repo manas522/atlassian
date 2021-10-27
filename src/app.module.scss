@@ -1,0 +1,25 @@
+.app {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  &__header {
+    position: relative;
+    height: 75px;
+    color: white;
+    background: #3f51b5;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: flex-start;
+  }
+  &__router {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 75px);
+  }
+}
